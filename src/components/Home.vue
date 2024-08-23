@@ -1,55 +1,163 @@
 <template>
-  <div class="flex items-center h-screen">
+  <div class="flex items-center justify-center min-h-screen bg-gray-100">
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap -mx-4">
         <!-- Card 1 -->
-        <div class="w-full md:w-4/12 px-4 mb-4 md:mb-10">
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
           <div
-            class="bg-white p-6 border border-gray-200 rounded-lg shadow max-h-72 overflow-y-auto"
+            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           >
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-              Card 1
-            </h5>
-            <p class="font-normal text-gray-700">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content. Here is some additional text to
-              demonstrate what happens when the content is too long and exceeds
-              the maximum height of the card. The card should now be scrollable.
+            <a href="#">
+              <!-- Kosongkan gambar -->
+              <div class="p-8 rounded-t-lg bg-gray-300 h-48"></div>
+            </a>
+            <div class="px-5 pb-5">
+              <p>
+                <h5
+                  class="text-xl mb-6 mt-2 font-semibold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Riverside Paradise in Kedungu
+                </h5>
             </p>
+              <div class="flex items-center justify-between">
+                <span class="text-xl font-medium text-gray-900 dark:text-white"
+                  >Rp13,900,000</span
+                >
+                <a
+                  href="#"
+                  class="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Detail
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <!-- Card 2 -->
-        <div class="w-full md:w-4/12 px-4 mb-4 md:mb-0">
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
           <div
-            class="bg-white p-6 border border-gray-200 rounded-lg shadow max-h-72 overflow-y-auto"
+            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           >
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-              Card 2
-            </h5>
-            <p class="font-normal text-gray-700">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content. Here is some additional text to
-              demonstrate what happens when the content is too long and exceeds
-              the maximum height of the card. The card should now be scrollable.
-            </p>
+            <a href="#">
+              <!-- Kosongkan gambar -->
+              <div class="p-8 rounded-t-lg bg-gray-300 h-48"></div>
+            </a>
+            <div class="px-5 pb-5">
+              <a href="#">
+                <h5
+                  class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                </h5>
+              </a>
+              <div class="flex items-center justify-between">
+                <span class="text-3xl font-bold text-gray-900 dark:text-white"
+                  >$599</span
+                >
+                <a
+                  href="#"
+                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Add to cart
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- Card 3 -->
-        <div class="w-full md:w-4/12 px-4">
+        <!-- card 3 -->
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
           <div
-            class="bg-white p-6 border border-gray-200 rounded-lg shadow max-h-72 overflow-y-auto"
+            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           >
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-              Card 3
-            </h5>
-            <p class="font-normal text-gray-700">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content. Here is some additional text to
-              demonstrate what happens when the content is too long and exceeds
-              the maximum height of the card. The card should now be scrollable.
-            </p>
+            <a href="#">
+              <!-- Kosongkan gambar -->
+              <div class="p-8 rounded-t-lg bg-gray-300 h-48"></div>
+            </a>
+            <div class="px-5 pb-5">
+              <a href="#">
+                <h5
+                  class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                </h5>
+              </a>
+              <div class="flex items-center justify-between">
+                <span class="text-3xl font-bold text-gray-900 dark:text-white"
+                  >$599</span
+                >
+                <a
+                  href="#"
+                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Add to cart
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- card 4 -->
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
+          <div
+            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <!-- Kosongkan gambar -->
+              <div class="p-8 rounded-t-lg bg-gray-300 h-48"></div>
+            </a>
+            <div class="px-5 pb-5">
+              <a href="#">
+                <h5
+                  class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                </h5>
+              </a>
+              <div class="flex items-center justify-between">
+                <span class="text-3xl font-bold text-gray-900 dark:text-white"
+                  >$599</span
+                >
+                <a
+                  href="#"
+                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Add to cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
+          <div
+            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <!-- Kosongkan gambar -->
+              <div class="p-8 rounded-t-lg bg-gray-300 h-48"></div>
+            </a>
+            <div class="px-5 pb-5">
+              <a href="#">
+                <h5
+                  class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                </h5>
+              </a>
+              <div class="flex items-center justify-between">
+                <span class="text-3xl font-bold text-gray-900 dark:text-white"
+                  >$599</span
+                >
+                <a
+                  href="#"
+                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Add to cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Ulangi struktur card di sini dengan konten yang berbeda jika diperlukan -->
       </div>
     </div>
   </div>
