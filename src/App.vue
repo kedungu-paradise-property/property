@@ -5,7 +5,15 @@ import Home from "./components/Home.vue";
 
 <template>
   <Navbar />
-  <Home/>
+  <Home />
 </template>
 
-<style scoped></style>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.pop {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
